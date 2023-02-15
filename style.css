@@ -38,7 +38,7 @@ body {
     justify-content: center;
     flex-direction: row;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 1.9rem;
     align-items: center;
 }
 
@@ -51,7 +51,7 @@ body {
 .animationLinks {
     display: inline-block;
     color: #ffffff;
-    padding-left: 35px;
+    padding-left: 2.2rem;
     font-weight: 800;
     text-decoration: none;
 
@@ -61,7 +61,7 @@ body {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 0.2vh;
     border-radius: 5px;
     background: #ffffff;
     transition: 0.3s;
@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    right: 35px;
+    right: 2.2rem;
     width: 150px;
 }
 
@@ -114,16 +114,11 @@ body {
 
 /* a banda inicio */
 
-.a-banda {
-    width: 10vw;
-    height: 100vh;
-}
-
 h2 {
     font-family: 'Open Sans';
     font-style: italic;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     padding-bottom: 60px;
     position: relative;
@@ -158,7 +153,7 @@ h2.right::after {
 .sobre-a-banda h3 {
     font-weight: 600;
     font-style: italic;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 33px;
     text-align: center;
     color: #FFFFFF;
@@ -178,7 +173,7 @@ h2.right::after {
 .sobre-a-banda p {
     font-style: italic;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 33px;
     color: #FFFFFF;
 }
@@ -211,13 +206,14 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .fotos-videos {
     display: flex;
-    justify-content: center;
-    gap: 200px;
+    gap: 12.5rem;
     margin-top: 5rem;
+    overflow-x: hidden;
 }
 
 .video-first,
@@ -433,7 +429,7 @@ label {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     align-items: flex-start;
     margin-bottom: 0.25rem;
 }
@@ -441,7 +437,7 @@ label {
 .text-area-all {
     font-style: italic;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 33px;
     color: #000;
     padding: 0px 10px;
@@ -472,7 +468,7 @@ textarea {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.6rem;
     transition: all 1s;
 }
 
@@ -500,6 +496,9 @@ footer img {
     margin-bottom: 15px;
 }
 
+footer p {
+    font-size: 1rem;
+}
 /* footer fim */
 
 
